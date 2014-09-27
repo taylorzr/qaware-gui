@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAEC1DDF19D706A900C13F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DDE19D706A900C13F49 /* main.m */; };
+		FAEC1DE219D706A900C13F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DE119D706A900C13F49 /* AppDelegate.m */; };
+		FAEC1DE519D706A900C13F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DE419D706A900C13F49 /* ViewController.m */; };
+		FAEC1DE819D706A900C13F49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEC1DE619D706A900C13F49 /* Main.storyboard */; };
+		FAEC1DEA19D706A900C13F49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEC1DE919D706A900C13F49 /* Images.xcassets */; };
+		FAEC1DED19D706A900C13F49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */; };
+		FAEC1DF919D706A900C13F49 /* Qaware_GuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DF819D706A900C13F49 /* Qaware_GuiTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAEC1DF319D706A900C13F49 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAEC1DD119D706A800C13F49 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAEC1DD819D706A900C13F49;
+			remoteInfo = "Qaware-Gui";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAEC1DD919D706A900C13F49 /* Qaware-Gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qaware-Gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEC1DDD19D706A900C13F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEC1DDE19D706A900C13F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAEC1DE019D706A900C13F49 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAEC1DE119D706A900C13F49 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAEC1DE319D706A900C13F49 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAEC1DE419D706A900C13F49 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAEC1DE719D706A900C13F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEC1DE919D706A900C13F49 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAEC1DEC19D706A900C13F49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAEC1DF219D706A900C13F49 /* Qaware-GuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qaware-GuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEC1DF719D706A900C13F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAEC1DF819D706A900C13F49 /* Qaware_GuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qaware_GuiTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEC1DD619D706A900C13F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC1DEF19D706A900C13F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAEC1DD019D706A800C13F49 = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DDB19D706A900C13F49 /* Qaware-Gui */,
+				FAEC1DF519D706A900C13F49 /* Qaware-GuiTests */,
+				FAEC1DDA19D706A900C13F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEC1DDA19D706A900C13F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DD919D706A900C13F49 /* Qaware-Gui.app */,
+				FAEC1DF219D706A900C13F49 /* Qaware-GuiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEC1DDB19D706A900C13F49 /* Qaware-Gui */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DE019D706A900C13F49 /* AppDelegate.h */,
+				FAEC1DE119D706A900C13F49 /* AppDelegate.m */,
+				FAEC1DE319D706A900C13F49 /* ViewController.h */,
+				FAEC1DE419D706A900C13F49 /* ViewController.m */,
+				FAEC1DE619D706A900C13F49 /* Main.storyboard */,
+				FAEC1DE919D706A900C13F49 /* Images.xcassets */,
+				FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */,
+				FAEC1DDC19D706A900C13F49 /* Supporting Files */,
+			);
+			path = "Qaware-Gui";
+			sourceTree = "<group>";
+		};
+		FAEC1DDC19D706A900C13F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DDD19D706A900C13F49 /* Info.plist */,
+				FAEC1DDE19D706A900C13F49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAEC1DF519D706A900C13F49 /* Qaware-GuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DF819D706A900C13F49 /* Qaware_GuiTests.m */,
+				FAEC1DF619D706A900C13F49 /* Supporting Files */,
+			);
+			path = "Qaware-GuiTests";
+			sourceTree = "<group>";
+		};
+		FAEC1DF619D706A900C13F49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAEC1DF719D706A900C13F49 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEC1DD819D706A900C13F49 /* Qaware-Gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEC1DFC19D706A900C13F49 /* Build configuration list for PBXNativeTarget "Qaware-Gui" */;
+			buildPhases = (
+				FAEC1DD519D706A900C13F49 /* Sources */,
+				FAEC1DD619D706A900C13F49 /* Frameworks */,
+				FAEC1DD719D706A900C13F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Qaware-Gui";
+			productName = "Qaware-Gui";
+			productReference = FAEC1DD919D706A900C13F49 /* Qaware-Gui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAEC1DF119D706A900C13F49 /* Qaware-GuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEC1DFF19D706A900C13F49 /* Build configuration list for PBXNativeTarget "Qaware-GuiTests" */;
+			buildPhases = (
+				FAEC1DEE19D706A900C13F49 /* Sources */,
+				FAEC1DEF19D706A900C13F49 /* Frameworks */,
+				FAEC1DF019D706A900C13F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAEC1DF419D706A900C13F49 /* PBXTargetDependency */,
+			);
+			name = "Qaware-GuiTests";
+			productName = "Qaware-GuiTests";
+			productReference = FAEC1DF219D706A900C13F49 /* Qaware-GuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEC1DD119D706A800C13F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Zach Taylor";
+				TargetAttributes = {
+					FAEC1DD819D706A900C13F49 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					FAEC1DF119D706A900C13F49 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = FAEC1DD819D706A900C13F49;
+					};
+				};
+			};
+			buildConfigurationList = FAEC1DD419D706A800C13F49 /* Build configuration list for PBXProject "Qaware-Gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEC1DD019D706A800C13F49;
+			productRefGroup = FAEC1DDA19D706A900C13F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEC1DD819D706A900C13F49 /* Qaware-Gui */,
+				FAEC1DF119D706A900C13F49 /* Qaware-GuiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEC1DD719D706A900C13F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC1DE819D706A900C13F49 /* Main.storyboard in Resources */,
+				FAEC1DED19D706A900C13F49 /* LaunchScreen.xib in Resources */,
+				FAEC1DEA19D706A900C13F49 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC1DF019D706A900C13F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEC1DD519D706A900C13F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC1DE519D706A900C13F49 /* ViewController.m in Sources */,
+				FAEC1DE219D706A900C13F49 /* AppDelegate.m in Sources */,
+				FAEC1DDF19D706A900C13F49 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAEC1DEE19D706A900C13F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC1DF919D706A900C13F49 /* Qaware_GuiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAEC1DF419D706A900C13F49 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAEC1DD819D706A900C13F49 /* Qaware-Gui */;
+			targetProxy = FAEC1DF319D706A900C13F49 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAEC1DE619D706A900C13F49 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC1DE719D706A900C13F49 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEC1DEC19D706A900C13F49 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEC1DFA19D706A900C13F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAEC1DFB19D706A900C13F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEC1DFD19D706A900C13F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qaware-Gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAEC1DFE19D706A900C13F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Qaware-Gui/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAEC1E0019D706A900C13F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Qaware-GuiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qaware-Gui.app/Qaware-Gui";
+			};
+			name = Debug;
+		};
+		FAEC1E0119D706A900C13F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Qaware-GuiTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qaware-Gui.app/Qaware-Gui";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEC1DD419D706A800C13F49 /* Build configuration list for PBXProject "Qaware-Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC1DFA19D706A900C13F49 /* Debug */,
+				FAEC1DFB19D706A900C13F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEC1DFC19D706A900C13F49 /* Build configuration list for PBXNativeTarget "Qaware-Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC1DFD19D706A900C13F49 /* Debug */,
+				FAEC1DFE19D706A900C13F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAEC1DFF19D706A900C13F49 /* Build configuration list for PBXNativeTarget "Qaware-GuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEC1E0019D706A900C13F49 /* Debug */,
+				FAEC1E0119D706A900C13F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEC1DD119D706A800C13F49 /* Project object */;
+}
