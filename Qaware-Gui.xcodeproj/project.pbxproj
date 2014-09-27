@@ -14,6 +14,7 @@
 		FAEC1DEA19D706A900C13F49 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEC1DE919D706A900C13F49 /* Images.xcassets */; };
 		FAEC1DED19D706A900C13F49 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */; };
 		FAEC1DF919D706A900C13F49 /* Qaware_GuiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DF819D706A900C13F49 /* Qaware_GuiTests.m */; };
+		FAF12D0E19D7288E0014C8DF /* FormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF12D0D19D7288E0014C8DF /* FormViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		FAEC1DF219D706A900C13F49 /* Qaware-GuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Qaware-GuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC1DF719D706A900C13F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEC1DF819D706A900C13F49 /* Qaware_GuiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Qaware_GuiTests.m; sourceTree = "<group>"; };
+		FAF12D0C19D7288E0014C8DF /* FormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FormViewController.h; sourceTree = "<group>"; };
+		FAF12D0D19D7288E0014C8DF /* FormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FormViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				FAEC1DE319D706A900C13F49 /* ViewController.h */,
 				FAEC1DE419D706A900C13F49 /* ViewController.m */,
 				FAEC1DE619D706A900C13F49 /* Main.storyboard */,
+				FAF12D0C19D7288E0014C8DF /* FormViewController.h */,
+				FAF12D0D19D7288E0014C8DF /* FormViewController.m */,
 				FAEC1DE919D706A900C13F49 /* Images.xcassets */,
 				FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */,
 				FAEC1DDC19D706A900C13F49 /* Supporting Files */,
@@ -221,6 +226,7 @@
 			files = (
 				FAEC1DE519D706A900C13F49 /* ViewController.m in Sources */,
 				FAEC1DE219D706A900C13F49 /* AppDelegate.m in Sources */,
+				FAF12D0E19D7288E0014C8DF /* FormViewController.m in Sources */,
 				FAEC1DDF19D706A900C13F49 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +418,7 @@
 				FAEC1DFE19D706A900C13F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAEC1DFF19D706A900C13F49 /* Build configuration list for PBXNativeTarget "Qaware-GuiTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				FAEC1E0119D706A900C13F49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
