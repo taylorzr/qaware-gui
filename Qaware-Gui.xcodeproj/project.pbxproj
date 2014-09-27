@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA38549019D74536006CD1E8 /* LocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38548F19D74536006CD1E8 /* LocationsViewController.m */; };
+		FA38549319D74ABB006CD1E8 /* LocationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38549219D74ABB006CD1E8 /* LocationItem.m */; };
+		FA38549619D75D46006CD1E8 /* LocationItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FA38549519D75D46006CD1E8 /* LocationItemCell.m */; };
 		FAEC1DDF19D706A900C13F49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DDE19D706A900C13F49 /* main.m */; };
 		FAEC1DE219D706A900C13F49 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DE119D706A900C13F49 /* AppDelegate.m */; };
 		FAEC1DE519D706A900C13F49 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAEC1DE419D706A900C13F49 /* ViewController.m */; };
@@ -28,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA38548E19D74536006CD1E8 /* LocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsViewController.h; sourceTree = "<group>"; };
+		FA38548F19D74536006CD1E8 /* LocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsViewController.m; sourceTree = "<group>"; };
+		FA38549119D74ABB006CD1E8 /* LocationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItem.h; sourceTree = "<group>"; };
+		FA38549219D74ABB006CD1E8 /* LocationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItem.m; sourceTree = "<group>"; };
+		FA38549419D75D46006CD1E8 /* LocationItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationItemCell.h; sourceTree = "<group>"; };
+		FA38549519D75D46006CD1E8 /* LocationItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationItemCell.m; sourceTree = "<group>"; };
 		FAEC1DD919D706A900C13F49 /* Qaware-Gui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qaware-Gui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAEC1DDD19D706A900C13F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAEC1DDE19D706A900C13F49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -87,10 +96,16 @@
 				FAEC1DE019D706A900C13F49 /* AppDelegate.h */,
 				FAEC1DE119D706A900C13F49 /* AppDelegate.m */,
 				FAEC1DE319D706A900C13F49 /* ViewController.h */,
+				FA38549119D74ABB006CD1E8 /* LocationItem.h */,
+				FA38549219D74ABB006CD1E8 /* LocationItem.m */,
+				FA38549419D75D46006CD1E8 /* LocationItemCell.h */,
+				FA38549519D75D46006CD1E8 /* LocationItemCell.m */,
 				FAEC1DE419D706A900C13F49 /* ViewController.m */,
-				FAEC1DE619D706A900C13F49 /* Main.storyboard */,
+				FA38548E19D74536006CD1E8 /* LocationsViewController.h */,
+				FA38548F19D74536006CD1E8 /* LocationsViewController.m */,
 				FAF12D0C19D7288E0014C8DF /* FormViewController.h */,
 				FAF12D0D19D7288E0014C8DF /* FormViewController.m */,
+				FAEC1DE619D706A900C13F49 /* Main.storyboard */,
 				FAEC1DE919D706A900C13F49 /* Images.xcassets */,
 				FAEC1DEB19D706A900C13F49 /* LaunchScreen.xib */,
 				FAEC1DDC19D706A900C13F49 /* Supporting Files */,
@@ -225,9 +240,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAEC1DE519D706A900C13F49 /* ViewController.m in Sources */,
+				FA38549619D75D46006CD1E8 /* LocationItemCell.m in Sources */,
+				FA38549319D74ABB006CD1E8 /* LocationItem.m in Sources */,
 				FAEC1DE219D706A900C13F49 /* AppDelegate.m in Sources */,
 				FAF12D0E19D7288E0014C8DF /* FormViewController.m in Sources */,
 				FAEC1DDF19D706A900C13F49 /* main.m in Sources */,
+				FA38549019D74536006CD1E8 /* LocationsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

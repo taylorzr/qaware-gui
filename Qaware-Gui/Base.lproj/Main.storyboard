@@ -44,7 +44,7 @@
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <segue destination="HIE-yv-hfG" kind="show" id="5bK-DD-1dF"/>
+                                    <segue destination="kmV-1w-v24" kind="show" id="OA5-jv-NJ4"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -80,95 +80,18 @@
             </objects>
             <point key="canvasLocation" x="379.5" y="330"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="jlK-ow-FOS">
+        <!--Table View Controller-->
+        <scene sceneID="vTA-bW-laq">
             <objects>
-                <viewController id="HIE-yv-hfG" sceneMemberID="viewController">
-                    <tableViewCell key="view" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="nfU-fN-kfx">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nfU-fN-kfx" id="paW-qI-cbg">
-                            <autoresizingMask key="autoresizingMask"/>
-                            <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJk-xd-GFG">
-                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                    <state key="normal" title="Kegerator">
-                                        <color key="titleColor" red="0.59580742549999999" green="0.19175542570000001" blue="0.81872027849999995" alpha="1" colorSpace="calibratedRGB"/>
-                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                    </state>
-                                    <connections>
-                                        <segue destination="OoL-Zu-0us" kind="presentation" id="472-Jd-auV"/>
-                                    </connections>
-                                </button>
-                                <switch opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vVi-ej-gdn">
-                                    <rect key="frame" x="-25" y="-15" width="51" height="31"/>
-                                </switch>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QAware  |  Brandon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xCY-Y4-JD4">
-                                    <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                    <color key="textColor" red="0.59580742549999999" green="0.19175542570000001" blue="0.81872027849999995" alpha="1" colorSpace="calibratedRGB"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
-                            <constraints>
-                                <constraint firstItem="vVi-ej-gdn" firstAttribute="leading" secondItem="wJk-xd-GFG" secondAttribute="trailing" constant="10" id="BMv-bY-RQC">
-                                    <variation key="widthClass=compact" constant="20"/>
-                                </constraint>
-                                <constraint firstItem="xCY-Y4-JD4" firstAttribute="top" secondItem="paW-qI-cbg" secondAttribute="topMargin" constant="25" id="Bjc-2W-E7J"/>
-                                <constraint firstAttribute="centerY" secondItem="wJk-xd-GFG" secondAttribute="centerY" id="JON-d7-kJx"/>
-                                <constraint firstItem="wJk-xd-GFG" firstAttribute="centerY" secondItem="vVi-ej-gdn" secondAttribute="centerY" constant="0.5" id="KF1-3U-AYe"/>
-                                <constraint firstItem="xCY-Y4-JD4" firstAttribute="leading" secondItem="paW-qI-cbg" secondAttribute="leadingMargin" constant="20" id="Mnh-4l-LwW"/>
-                                <constraint firstAttribute="centerY" secondItem="vVi-ej-gdn" secondAttribute="centerY" id="ZDV-cx-eXq"/>
-                                <constraint firstAttribute="centerX" secondItem="wJk-xd-GFG" secondAttribute="centerX" id="azg-5U-b11"/>
-                                <constraint firstItem="vVi-ej-gdn" firstAttribute="leading" secondItem="wJk-xd-GFG" secondAttribute="trailing" constant="52" id="fRZ-T6-rXL">
-                                    <variation key="widthClass=compact" constant="30"/>
-                                </constraint>
-                                <constraint firstItem="wJk-xd-GFG" firstAttribute="trailing" secondItem="vVi-ej-gdn" secondAttribute="trailing" constant="-101" id="w2n-vb-N20"/>
-                            </constraints>
-                            <variation key="default">
-                                <mask key="subviews">
-                                    <exclude reference="wJk-xd-GFG"/>
-                                    <exclude reference="vVi-ej-gdn"/>
-                                    <exclude reference="xCY-Y4-JD4"/>
-                                </mask>
-                                <mask key="constraints">
-                                    <exclude reference="Bjc-2W-E7J"/>
-                                    <exclude reference="Mnh-4l-LwW"/>
-                                    <exclude reference="JON-d7-kJx"/>
-                                    <exclude reference="KF1-3U-AYe"/>
-                                    <exclude reference="azg-5U-b11"/>
-                                    <exclude reference="w2n-vb-N20"/>
-                                    <exclude reference="BMv-bY-RQC"/>
-                                    <exclude reference="ZDV-cx-eXq"/>
-                                    <exclude reference="fRZ-T6-rXL"/>
-                                </mask>
-                            </variation>
-                            <variation key="widthClass=compact">
-                                <mask key="subviews">
-                                    <include reference="wJk-xd-GFG"/>
-                                    <include reference="vVi-ej-gdn"/>
-                                    <include reference="xCY-Y4-JD4"/>
-                                </mask>
-                                <mask key="constraints">
-                                    <include reference="Bjc-2W-E7J"/>
-                                    <include reference="Mnh-4l-LwW"/>
-                                    <include reference="JON-d7-kJx"/>
-                                    <include reference="KF1-3U-AYe"/>
-                                    <include reference="azg-5U-b11"/>
-                                    <exclude reference="w2n-vb-N20"/>
-                                    <exclude reference="BMv-bY-RQC"/>
-                                    <exclude reference="ZDV-cx-eXq"/>
-                                    <include reference="fRZ-T6-rXL"/>
-                                </mask>
-                            </variation>
-                        </tableViewCellContentView>
-                    </tableViewCell>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dKY-d2-RJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="kmV-1w-v24" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="BBx-Vd-zcv">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g1Z-bI-y8m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1098" y="329"/>
+            <point key="canvasLocation" x="1105.5" y="330"/>
         </scene>
         <!--Form View Controller-->
         <scene sceneID="Rfh-Gy-SqS">
@@ -185,17 +108,9 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mtm-7B-Gtq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem title="Cancel" id="QeY-jj-d6G">
-                                        <connections>
-                                            <segue destination="HIE-yv-hfG" kind="show" id="HoY-gw-Vd4"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Cancel" id="QeY-jj-d6G"/>
                                     <barButtonItem style="plain" systemItem="flexibleSpace" id="nmN-32-eo4"/>
-                                    <barButtonItem title="Done" id="e3q-m7-rHN">
-                                        <connections>
-                                            <segue destination="HIE-yv-hfG" kind="show" id="aEB-aJ-bQJ"/>
-                                        </connections>
-                                    </barButtonItem>
+                                    <barButtonItem title="Done" id="e3q-m7-rHN"/>
                                 </items>
                             </toolbar>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ap0-4p-ZNY">
@@ -257,8 +172,5 @@
             <point key="canvasLocation" x="1819.5" y="329"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="HoY-gw-Vd4"/>
-    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.59580742549999999" green="0.19175542570000001" blue="0.81872027849999995" alpha="1" colorSpace="calibratedRGB"/>
 </document>
